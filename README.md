@@ -41,7 +41,7 @@ To run the project, you must properly configure the **`Configuration.java`** fil
 
 1. Once the project is built, run the application:
    ```bash
-   java -jar target/iotdb-opc-connector.jar
+   java -jar target/iotdb-opc-connector-1.0-SNAPSHOT.jar
 
 2. The application will start both the `DataGenerator` (which simulates data and writes to the OPC server) and the `DataReader` (which subscribes to changes and writes them to IoTDB) simultaneously.
 
